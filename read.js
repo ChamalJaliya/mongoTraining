@@ -1,12 +1,15 @@
-/** In mongo DB shell we access to the database by the command "db"
+/** we dont want to run mongod if we install mongodb as a service on 
+ *  windows it autoimatically runs on the start up.
+ *  In mongo DB shell we access to the database by the command "db"
  * and access the collection by the db."collectionName"
  * and  then we execute the methods
  * finally we have data to the method ( method parameters)
  */
 
-// i) mongo
-// ii) use movieData
-// iii) db.movies.inserMany([{},{}..........{}])
+// i) mongosh
+// ii) show dbs
+// iii) use movieData
+// iv) db.movies.inserMany([{},{}..........{}])
 
 // Find
 // 1st arg -> Document which we look for which has the form of field name and value

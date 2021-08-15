@@ -47,7 +47,8 @@ db.users.updateMany(
     },
   }
 );
-
+// Select all documents
+db.users.updateMany({},{$set:{isSporty:true,isHealthy:true}})
 // incrementing a number
 // + inc - decrement
 db.users.updateOne(
